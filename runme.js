@@ -1110,7 +1110,7 @@ var generateCpLoadStmt = function() {
     var url = github.url;
     
     // since we have a github url, use the raw version
-    // wa want something like https://raw.githubusercontent.com/chilipeppr/eagle-brd-import/master/auto-generated-widget.html";
+    // wa want something like https://raw.githubusercontent.com/FellMel/eagle-brd-import/master/auto-generated-widget.html";
     var rawurl = github.rawurl; //= url.replace(/\/github.com\//i, "/raw.githubusercontent.com/");
     //rawurl += '/master/auto-generated-widget.html';
     
